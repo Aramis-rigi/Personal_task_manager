@@ -1,8 +1,7 @@
 import os
 from dotenv import load_dotenv
 from tasks import  show_task, add_task
-name = input ("Whats your name?")
-print("welcome", name)
+
 
 load_dotenv()
 admin_password = os.getenv("QUIZ_ADMIN_PASSWORD")
@@ -14,6 +13,9 @@ if open_admin.lower() == "yes":
         print("admin, hi")
     else:
         print("wrong password")
+
+name = input ("Whats your name?")
+print("welcome", name)
 
 tasks = []
 while True:
