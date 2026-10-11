@@ -16,6 +16,7 @@ A simple personal task manager built with python
   - [Screenshots](#screenshots)
     - [Start Program](#start-program)
     - [Tasks](#tasks)
+    - [priority](#priority)
     - [The end of the program](#the-end-of-the-program)
   - [Demo](#demo)
   - [Roadmap](#roadmap)
@@ -26,6 +27,7 @@ A simple personal task manager built with python
   - Asks users name
   - Add multiple tasks
   - Displays all tasks
+  - Prioritize Tasks
 - Result storage
   - saves tasks in `tasks.txt` 
 
@@ -124,13 +126,17 @@ Whats your name?aramis
 
 welcome aramis
 
-enter a task or enter exit: do my homework
+enter a task or enter exit: do my homeworks
 
-your task  ['do my homework'] added
+Enter  priority (low/medium/high):high
+
+your task and their priorities  ['do my homeworks,high'] high added
 
 enter a task or enter exit: exit
 
-do my homework
+your tasks: 
+
+do my homeworks,high
 ```
 
 ## Screenshots
@@ -139,6 +145,9 @@ do my homework
 
 ### Tasks
 ![tasks](pictures\img2.png)
+
+### priority
+![priority](pictures\img4.png)
 
 ### The end of the program
 ![end](pictures\img3.png)
@@ -152,6 +161,7 @@ do my homework
 - [x] show all tasks
 - [x] admin mode
 - [x] save tasks to a file
+- [x] add priority
 - [ ] remove completed tasks
 - [ ] add due dates
 - [ ] categorize tasks
